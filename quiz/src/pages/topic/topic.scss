@@ -1,0 +1,22 @@
+.topic {
+    h3 {
+        margin: 20px 0px;
+    }
+    table {
+        border-collapse: collapse;
+        width:500px;
+        margin: 0 auto;
+
+        td,th {
+            border: 1px solid #ddd;
+            padding: 6px;
+            text-align: center;
+        }
+        th {
+            padding: 10px;
+            background: orange;
+            color: #fff;
+            font-weight: 500;
+        }
+    }
+}
