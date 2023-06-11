@@ -78,7 +78,7 @@ function Quiz() {
                       type="radio"
                       id={`${item.id}-${i}`}
                       name={`${item.id}`}
-                      value={i}
+                      value={i} required
                     />
                     <label htmlFor={`${item.id}-${i}`}>{answer}</label>
                   </div>
